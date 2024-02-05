@@ -1,0 +1,298 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.first-page {
+    background-color: #2A4674 !important;
+}
+
+.second-page {
+    background-color: #FFF4E3 !important;
+}
+
+.third-page {
+    background-color: #FFF4E3 !important;
+}
+
+.fourth-page {
+    background-color: #2A4674 !important;
+}
+
+.title-section {
+    padding-top: 300px;
+    padding-left: 30px !important;
+}
+
+.title-2-section {
+    padding-top: 150px;
+    padding-left: 30px !important;
+}
+
+.title-3-section {
+    padding-top: 150px;
+    padding-left: 50px !important;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.title-2 {
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+}
+
+.title-3 {
+    font-size: 42px;
+    color: black;
+    font-weight: 500;
+}
+
+.description-2 {
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+}
+
+.form-section {
+    background-image: url("img/img-2-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-section-position {
+    position: relative;
+    top: 300px;
+    left: 170px;
+}
+
+.form-label {
+    font-size: 24px !important;
+    font-weight: 500;
+}
+
+.img-top-space {
+    padding-top: 220px;
+}
+
+.pink-box {
+    background-color: #F69AA2;
+    padding: 10px;
+    width: 90%;
+}
+
+.pink-box-section-1 {
+    padding: 120px;
+    padding-bottom: 0;
+}
+
+.title-3-2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.title-3-3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.title-3-2-section {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.title-3-3-section {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.holiday-count {
+    font-size: 150px;
+}
+
+.holiday-count-section {
+    padding-top: 50px;
+    padding-bottom: 92px;
+    text-align: center;
+}
+
+.holiday-list-section {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.holiday-button-section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 53%;
+    padding-bottom: 10px;
+}
+
+.holiday-list-button-section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 53%;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.menu-center {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.menu-title-section {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.menu-title {
+    font-size: 40px;
+    color: #FFC544;
+    font-weight: 600;
+}
+
+.menu-label {
+    font-size: 20px;
+    color: #FFC544;
+    font-weight: 400;
+}
+
+.menu-desc {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.menu-logo {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-section {
+        padding-top: 10px;
+    }
+
+    .title-2-section {
+        padding-top: 10px;
+    }
+    
+    .title-3-section {
+        padding-top: 20px;
+        padding-left: 30px !important;
+    }
+
+    .title {
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .title-2 {
+        font-size: 40px;
+        color: black;
+        font-weight: 700;
+    }
+
+    .title-3 {
+        font-size: 16px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .title-3-2 {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .title-3-3 {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    
+    .description-2 {
+        font-size: 16px;
+        color: black;
+        font-weight: 400;
+    }
+
+    .first-page {
+        background-color: #2A4674 !important;
+        padding-bottom: 50px;
+    }
+
+    .form-section {
+        background-image: url("img/img-2-2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+    }
+
+    .form-section-position {
+        position: relative;
+        top: 190px;
+        left: 50px;
+    }
+
+    .small-btn-size {
+        --bs-btn-padding-y: 0.25rem !important;
+        --bs-btn-padding-x: 0.5rem !important;
+        --bs-btn-font-size: 0.875rem !important;
+        --bs-btn-border-radius: var(--bs-border-radius-sm) !important;
+    }
+
+    .holiday-button-section {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 59%;
+        padding-bottom: 10px;
+    }
+
+    .holiday-list-button-section {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60%;
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+
+    .img-top-space {
+        padding-top: 100px;
+    }
+
+    .pink-box-section-1 {
+        padding: 10px;
+        padding-bottom: 0;
+    }
+
+    .holiday-count {
+        font-size: 60px;
+    }
+
+    .holiday-count-section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .holiday-button-content {
+        font-size: 10px !important;
+    }
+
+    .pink-box-list {
+        padding-bottom: 50px;
+    }
+    
+}
