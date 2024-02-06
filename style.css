@@ -69,9 +69,11 @@ html,body
 }
 
 .form-section-position {
-    position: relative;
-    top: 300px;
-    left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .form-label {
@@ -178,6 +180,10 @@ html,body
     color: #FFFFFF;
 }
 
+.form-section-inside {
+    margin-top: 70px;
+}
+
 @media only screen and (max-width: 600px) {
     .title-section {
         padding-top: 10px;
@@ -244,6 +250,11 @@ html,body
         position: relative;
         top: 190px;
         left: 50px;
+        display: block;
+        justify-content: unset;
+        align-items: unset;
+        width: unset;
+        height: unset;
     }
 
     .small-btn-size {
@@ -293,6 +304,10 @@ html,body
 
     .pink-box-list {
         padding-bottom: 50px;
+    }
+
+    .form-section-inside {
+        margin-top: 0px;
     }
     
 }
